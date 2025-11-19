@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Node.js App Running through Docker & Jenkins Pipeline!");
+  res.send("<H1>Node.js App Running through Docker & Jenkins Pipeline!</h1>");
 });
 
 app.listen(3000, () => {
